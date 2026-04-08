@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<title>Kit Redes Sociales — Vortex Studio</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap');
+  :root{--blue:#1a56db;--blue-dark:#0f3a9e;--blue-light:#e8f0fe;--dark:#0d0f14;--surface:#f7f8fa;--border:#e5e7eb;--text:#0d0f14;--muted:#6b7280;--white:#fff;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'DM Sans',sans-serif;color:var(--text);background:var(--white);}
+  .cover{background:var(--dark);padding:60px 50px;border-bottom:4px solid var(--blue);}
+  .cover-tag{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:12px;}
+  .cover h1{font-family:'Syne',sans-serif;font-size:40px;font-weight:700;color:var(--white);letter-spacing:-1px;line-height:1.1;margin-bottom:10px;}
+  .cover h1 span{color:#60a5fa;}
+  .cover p{font-size:15px;color:rgba(255,255,255,0.55);max-width:500px;margin-bottom:24px;}
+  .tags{display:flex;gap:10px;flex-wrap:wrap;}
+  .tag{font-size:12px;padding:4px 14px;border-radius:99px;font-weight:500;}
+  .tag-blue{background:rgba(96,165,250,0.15);color:#93c5fd;}
+  .tag-green{background:rgba(34,197,94,0.15);color:#86efac;}
+
+  .section{padding:40px 50px;}
+  .section-alt{background:var(--surface);}
+  .sec-title{font-family:'Syne',sans-serif;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--blue);margin-bottom:20px;padding-bottom:8px;border-bottom:2px solid var(--blue-light);}
+
+  .steps{display:flex;flex-direction:column;gap:16px;}
+  .step{display:flex;gap:20px;align-items:flex-start;padding:20px;background:var(--white);border:1px solid var(--border);border-radius:12px;}
+  .step-num{width:36px;height:36px;background:var(--blue);color:var(--white);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif;font-weight:700;font-size:15px;flex-shrink:0;}
+  .step-title{font-weight:500;font-size:15px;margin-bottom:4px;}
+  .step-desc{font-size:13px;color:var(--muted);line-height:1.6;}
+  .step-tip{display:inline-block;margin-top:8px;font-size:11px;background:var(--blue-light);color:var(--blue);padding:3px 10px;border-radius:6px;font-weight:500;}
+
+  .templates-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+  .tpl-card{border:1px solid var(--border);border-radius:12px;overflow:hidden;}
+  .tpl-preview{height:120px;display:flex;align-items:center;justify-content:center;font-size:28px;}
+  .tpl-info{padding:12px 14px;border-top:1px solid var(--border);}
+  .tpl-name{font-size:13px;font-weight:500;margin-bottom:3px;}
+  .tpl-desc{font-size:11px;color:var(--muted);}
+  .tpl-size{font-size:10px;color:var(--blue);font-weight:500;margin-top:4px;}
+
+  .tips-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;}
+  .tip-card{padding:18px;border:1px solid var(--border);border-radius:10px;background:var(--white);}
+  .tip-icon{font-size:20px;margin-bottom:8px;}
+  .tip-title{font-size:14px;font-weight:500;margin-bottom:6px;}
+  .tip-text{font-size:13px;color:var(--muted);line-height:1.6;}
+
+  .footer{background:var(--dark);color:rgba(255,255,255,0.4);padding:20px 50px;font-size:11px;display:flex;justify-content:space-between;}
+  .footer strong{color:rgba(255,255,255,0.7);}
+  @media print{body{-webkit-print-color-adjust:exact;print-color-adjust:exact;}}
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="cover-tag">Vortex Studio · Producto Digital #1</div>
+  <h1>Kit de <span>Redes Sociales</span></h1>
+  <p>30 plantillas editables en Canva para Instagram y Facebook. Listas para personalizar con tu marca en minutos.</p>
+  <div class="tags">
+    <span class="tag tag-blue">30 plantillas Canva</span>
+    <span class="tag tag-blue">Instagram · Facebook</span>
+    <span class="tag tag-green">Acceso inmediato</span>
+    <span class="tag tag-green">Editable 100%</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="sec-title">Cómo usar este kit</div>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div>
+        <div class="step-title">Accedé al link de Canva</div>
+        <div class="step-desc">Hacé clic en el link que recibiste por email o WhatsApp. Se va a abrir Canva en tu navegador. No necesitás cuenta paga — funciona con la versión gratuita.</div>
+        <span class="step-tip">💡 Si no tenés cuenta en Canva, creá una gratis en canva.com</span>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div>
+        <div class="step-title">Hacé una copia del template</div>
+        <div class="step-desc">En Canva, hacé clic en "Usar plantilla" o "Hacer una copia". Esto crea tu propia versión que podés editar sin afectar el original.</div>
+        <span class="step-tip">⚠️ No editás el archivo original, siempre trabajás sobre tu copia</span>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div>
+        <div class="step-title">Personalizá con tu marca</div>
+        <div class="step-desc">Reemplazá los textos, colores y logo con los de tu marca. En Canva podés cambiar cualquier elemento haciendo clic sobre él. Subí tu logo desde "Subir archivos".</div>
+        <span class="step-tip">🎨 Guardá tu paleta de colores en Canva para aplicarla rápido</span>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <div>
+        <div class="step-title">Descargá y publicá</div>
+        <div class="step-desc">Cuando estés conforme, hacé clic en "Compartir" → "Descargar" → PNG (para redes) o JPG. Recomendamos PNG para mejor calidad.</div>
+        <span class="step-tip">📱 Para Stories usá formato vertical 1080x1920px · Para posts 1080x1080px</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section section-alt">
+  <div class="sec-title">Las 30 plantillas incluidas</div>
+  <div class="templates-grid">
+    <div class="tpl-card"><div class="tpl-preview" style="background:#e8f0fe;">🖼️</div><div class="tpl-info"><div class="tpl-name">Post de presentación de marca</div><div class="tpl-desc">Para dar la bienvenida o relanzar tu perfil</div><div class="tpl-size">Feed · 1080×1080px</div></div></div>
+    <div class="tpl-card"><div class="tpl-preview" style="background:#fce7f3;">📢</div><div class="tpl-info"><div class="tpl-name">Anuncio de producto/servicio</div><div class="tpl-desc">Destacá lo que ofrecés con diseño profesional</div><div class="tpl-size">Feed · 1080×1080px</div></div></div>
+    <div class="tpl-card"><div class="tpl-preview" style="background:#d1fae5;">💬</div><div class="tpl-info"><div class="tpl-name">Testimonio de cliente</div><div class="tpl-desc">Mostrá reseñas y opiniones de tus clientes</div><div class="tpl-size">Feed · 1080×1080px</div></div></div>
+    <div class="tpl-card"><div class="tpl-preview" style="background:#fef3c7;">📊</div><div class="tpl-info"><div class="tpl-name">Carrusel educativo (5 slides)</div><div class="tpl-desc">Comparte consejos o tutoriales en formato carrusel</div><div class="tpl-size">Carrusel · 1080×1080px</div></div></div>
+    <div class="tpl-card"><div class="tpl-preview" style="background:#ede9fe;">🔥</div><div class="tpl-info"><div class="tpl-name">Oferta especial / promoción</div><div class="tpl-desc">Para descuentos, 2x1 o lanzamientos</div><div class="tpl-size">Feed · 1080×1080px</div></div></div>
+    <div class="tpl-card"><div class="tpl-preview" style="background:#fee2e2;">❓</div><div class="tpl-info"><div class="tpl-name">Pregunta a la comunidad</div><div class="tpl-desc">Genera interacción con preguntas creativas</div><div class="tpl-size">Feed · 1080×1080px</div></div></div>
+    <div class="tpl-card"><div class="tpl-preview" style="background:#e8f0fe;">📸</div><div class="tpl-info"><div class="tpl-name">Story de encuesta</div><div class="tpl-desc">Usá las encuestas de Instagram para engagement</div><div class="tpl-size">Story · 1080×1920px</div></div></div>
+    <div class="tpl-card"><div class="tpl-preview" style="background:#d1fae5;">💡</div><div class="tpl-info"><div class="tpl-name">Tip del día</div><div class="tpl-desc">Comparte un consejo rápido y útil para tu audiencia</div><div class="tpl-size">Feed · 1080×1080px</div></div></div>
+    <div class="tpl-card"><div class="tpl-preview" style="background:#fce7f3;">🎯</div><div class="tpl-info"><div class="tpl-name">Behind the scenes</div><div class="tpl-desc">Mostrá el proceso detrás de tu trabajo</div><div class="tpl-size">Story · 1080×1920px</div></div></div>
+  </div>
+  <div style="text-align:center;margin-top:20px;font-size:13px;color:var(--muted);">+ 21 plantillas más incluidas en el kit completo</div>
+</div>
+
+<div class="section">
+  <div class="sec-title">Tips para mejores resultados</div>
+  <div class="tips-grid">
+    <div class="tip-card"><div class="tip-icon">🎨</div><div class="tip-title">Mantené la consistencia visual</div><div class="tip-text">Usá siempre los mismos colores y fuentes de tu marca. La consistencia genera reconocimiento y profesionalismo.</div></div>
+    <div class="tip-card"><div class="tip-icon">📅</div><div class="tip-title">Publicá en los mejores horarios</div><div class="tip-text">Para Argentina, los mejores horarios son 12–14hs y 19–21hs de lunes a viernes. Probá y medí tus estadísticas.</div></div>
+    <div class="tip-card"><div class="tip-icon">✍️</div><div class="tip-title">El texto importa tanto como el diseño</div><div class="tip-text">Una buena imagen con un copy flojo no vende. Trabajá el texto del post con una propuesta de valor clara.</div></div>
+    <div class="tip-card"><div class="tip-icon">📈</div><div class="tip-title">Medí lo que funciona</div><div class="tip-text">Revisá las estadísticas semanalmente. Los posts con más alcance te dicen qué quiere ver tu audiencia.</div></div>
+  </div>
+</div>
+
+<div class="footer">
+  <div><strong>Vortex Studio</strong> · Kit de Redes Sociales</div>
+  <div>¿Consultas? hola@vortexstudio.com · WhatsApp +54 9 11 6749-7237</div>
+</div>
+</body>
+</html>
